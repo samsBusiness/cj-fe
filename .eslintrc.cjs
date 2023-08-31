@@ -22,5 +22,8 @@ module.exports = {
       {allowConstantExport: true},
     ],
     "unicorn/filename-case": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "react/prop-types": ["error", {ignore: ["children"]}],
   },
 };
